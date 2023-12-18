@@ -19,4 +19,11 @@ const (
 	ScopeUserWrite          Scope = "user:write"
 	ScopeUserWorkspaceRead  Scope = "user.workspace:read"
 	ScopeUserWorkspaceWrite Scope = "user.workspace:write"
+
+	// Crpyto scopes
+	ScopeWalletRead  Scope = "wallet:read"
+	ScopeWalletWrite Scope = "wallet:write"
+
+	ScopeWalletUserRead  Scope = "wallet.user:read"
+	ScopeWalletUserWrite Scope = "wallet.user:write"
 )
