@@ -20,10 +20,19 @@ const (
 	ScopeUserWorkspaceRead  Scope = "user.workspace:read"
 	ScopeUserWorkspaceWrite Scope = "user.workspace:write"
 
-	// Crpyto scopes
+	// Wallet scopes
 	ScopeWalletRead  Scope = "wallet:read"
 	ScopeWalletWrite Scope = "wallet:write"
-
+	// Wallet User scopes
 	ScopeWalletUserRead  Scope = "wallet.user:read"
 	ScopeWalletUserWrite Scope = "wallet.user:write"
+	// Wallet Settings scopes
+	ScopeWalletSettingRead  Scope = "wallet.setting:read"
+	ScopeWalletSettingWrite Scope = "wallet.setting:write"
+	// Wallet Transaction scopes
+	ScopeWalletTransactionRead  Scope = "wallet.transaction:read"
+	ScopeWalletTransactionWrite Scope = "wallet.transaction:write"
+	// Wallet Webhook scopes
+	ScopeWalletWebhookRead  Scope = "wallet.webhook:read"
+	ScopeWalletWebhookWrite Scope = "wallet.webhook:write"
 )
